@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonCadastrarFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="CADASTRAR FUNCIONÁRIO" />
+
+    <Button
+        android:id="@+id/buttonListarFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="LISTAR FUNCIONÁRIO" />
+
+    <Button
+        android:id="@+id/buttonConsultarFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="CONSULTAR FUNCIONÁRIO" />
+
+    <Button
+        android:id="@+id/buttonExibirLucroAnual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="EXIBIR LUCRO ANUAL DA EMPRESA" />
+
+</LinearLayout>

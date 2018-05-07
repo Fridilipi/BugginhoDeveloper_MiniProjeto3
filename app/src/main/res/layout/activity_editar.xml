@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Funcionario" />
+
+    <TextView
+        android:id="@+id/textViewNomeFuncionarioEditar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="center_vertical"
+        android:text="Nome do Funcionario" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF do Funcionario" />
+
+    <TextView
+        android:id="@+id/textViewCPFFuncionarioEditar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="center_vertical"
+        android:text="000.000.000-00" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargo do Funcionario" />
+
+    <TextView
+        android:id="@+id/textViewCargoFuncionarioEditar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="center_vertical"
+        android:text="Cargo do Funcionario" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salário do Funcionario" />
+
+    <TextView
+        android:id="@+id/textViewSalarioFuncionarioEditar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="center_vertical"
+        android:text="R$ 1.000,00" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bônus do Funcionario" />
+
+    <TextView
+        android:id="@+id/textViewBonusFuncionarioEditar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="32dp"
+        android:gravity="center_vertical"
+        android:text="R$ 1.000,00" />
+
+    <Button
+        android:id="@+id/buttonSalvarAlteracoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALVAR ALTERAÇÕES" />
+
+    <Button
+        android:id="@+id/buttonExcluirFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCLUIR FUNCIONÁRIO" />
+
+</LinearLayout>

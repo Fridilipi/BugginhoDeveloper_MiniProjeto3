@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Funcionario" />
+
+    <EditText
+        android:id="@+id/editTextNomeFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPF do Funcionario" />
+
+    <EditText
+        android:id="@+id/editTextCPFFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cargo do Funcionario" />
+
+    <Spinner
+        android:id="@+id/spinnerCargoFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salário do Funcionario" />
+
+    <EditText
+        android:id="@+id/editTextSalarioFuncionario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRAR" />
+
+</LinearLayout>
